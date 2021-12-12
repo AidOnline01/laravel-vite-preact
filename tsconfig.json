@@ -1,0 +1,38 @@
+{
+    "compilerOptions": {
+        "jsx": "react-jsx",
+        "target": "esnext",
+        "module": "esnext",
+        "moduleResolution": "node",
+        "strict": true,
+        "skipLibCheck": true,
+        "sourceMap": true,
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "lib": [
+            "esnext",
+            "dom"
+        ],
+        "types": [
+            "vite/client"
+        ],
+        "typeRoots": [
+            "./resources/scripts/types"
+        ],
+        "baseUrl": ".",
+        "paths": {
+            "@/*": [
+                "resources/scripts/*"
+            ],
+            "react": [
+                "node_modules/preact/compat"
+            ],
+            "react-dom": [
+                "node_modules/preact/compat"
+            ]
+        }
+    },
+    "include": [
+        "resources/**/*"
+    ]
+}

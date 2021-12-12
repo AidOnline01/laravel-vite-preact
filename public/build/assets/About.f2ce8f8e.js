@@ -1,0 +1,1 @@
+import{N as o}from"./Navigation.9539d2a9.js";import{a as s,j as a}from"./App.60d7d49e.js";import"./vendor.639f726e.js";function d(i){return s("div",{className:"about",children:[a(o,{}),a("div",{children:"I am an about page"})]})}export{d as default};

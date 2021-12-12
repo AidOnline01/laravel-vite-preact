@@ -1,0 +1,56 @@
+{
+  "resources/scripts/App.tsx": {
+    "file": "assets/App.60d7d49e.js",
+    "src": "resources/scripts/App.tsx",
+    "isEntry": true,
+    "imports": [
+      "_vendor.639f726e.js"
+    ],
+    "dynamicImports": [
+      "resources/scripts/pages/Home.tsx",
+      "resources/scripts/pages/About.tsx"
+    ],
+    "css": [
+      "assets/App.fa3ff73a.css"
+    ]
+  },
+  "resources/scripts/index.tsx": {
+    "file": "assets/index.a0500a38.js",
+    "src": "resources/scripts/index.tsx",
+    "isEntry": true,
+    "imports": [
+      "_vendor.639f726e.js",
+      "resources/scripts/App.tsx"
+    ]
+  },
+  "_vendor.639f726e.js": {
+    "file": "assets/vendor.639f726e.js"
+  },
+  "resources/scripts/pages/Home.tsx": {
+    "file": "assets/Home.d5eee68c.js",
+    "src": "resources/scripts/pages/Home.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_Navigation.9539d2a9.js",
+      "resources/scripts/App.tsx",
+      "_vendor.639f726e.js"
+    ]
+  },
+  "_Navigation.9539d2a9.js": {
+    "file": "assets/Navigation.9539d2a9.js",
+    "imports": [
+      "_vendor.639f726e.js",
+      "resources/scripts/App.tsx"
+    ]
+  },
+  "resources/scripts/pages/About.tsx": {
+    "file": "assets/About.f2ce8f8e.js",
+    "src": "resources/scripts/pages/About.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_Navigation.9539d2a9.js",
+      "resources/scripts/App.tsx",
+      "_vendor.639f726e.js"
+    ]
+  }
+}
